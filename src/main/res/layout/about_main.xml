@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUHAMMAD ZAKWAN BIN ADAM"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group: RCS2515A"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matric No: 2020449842"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programme Code: CS251"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnGitHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GitHub"
+        android:onClick="openGitHubLink" />
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YouTube"
+        android:onClick="openYouTubeLink" />
+
+</LinearLayout>

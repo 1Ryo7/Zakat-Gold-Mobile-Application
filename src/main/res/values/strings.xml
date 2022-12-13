@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Zakat Gold Calculator Application</string>
+
+    <string name="settings_text_select_theme">Select Theme:</string>
+
+    <string-array name="theme_array">
+        <item>Standard</item>
+        <item>Gold</item>
+        <item>White</item>
+    </string-array>
+</resources>
+
