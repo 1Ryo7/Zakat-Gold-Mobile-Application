@@ -42,7 +42,7 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
     }
 
     public void onGithubClicked() {
-        openUrl("https://goldrate.com/gold-price-malaysia/");
+        openUrl("https://github.com/1Ryo7/Zakat-Gold-Mobile-Application");
     }
 
     private void onYoutubeClicked() {
